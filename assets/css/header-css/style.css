@@ -1,0 +1,70 @@
+@font-face {
+    font-family: vampire;
+    src: url('../../font/Vampire\ Wars.otf');
+}
+
+@font-face {
+    font-family: tommy;
+    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
+}
+
+header {
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 25rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-family: vampire;
+    font-size: 3rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: tommy;
+    color: #fff;
+}
+
+.nav-link:hover{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #000000;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}

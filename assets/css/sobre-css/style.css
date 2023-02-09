@@ -1,0 +1,64 @@
+@font-face {
+    font-family: tommy;
+    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
+}
+
+.sobre{
+    width: 80%;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.sobre h1{
+    text-align: center;
+    font-family: tommy;
+    font-size: 35px;
+}
+
+.sobre-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.img-sobre{
+    width: 70%;
+    border-radius: 40%;
+}
+
+.txt-sobre{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2rem;
+}
+.botao-container__sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.botao-link__sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 1rem;
+    font-size: 25px;
+    font-family: tommy;
+    background-color: #000000;
+    color:  #fff;
+}
+
+.botao-link__sobre:hover{
+    scale: 105%;
+}
+

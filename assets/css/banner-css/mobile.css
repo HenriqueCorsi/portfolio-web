@@ -1,8 +1,13 @@
 @media screen and (max-width: 800px) {
+    .banner{
+        background-image: url('../../img/banner-mobile.png');
+        background-repeat: no-repeat;
+    }
+    
     .apresentacao{
         width: 90%;
         padding: 0px;
-        margin: 50px 5px;
+        margin: 50px 20px;
     }
 
     .botao-container{

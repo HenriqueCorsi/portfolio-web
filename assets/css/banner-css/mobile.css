@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+    .apresentacao{
+        width: 90%;
+        padding: 0px;
+        margin: 50px 5px;
+    }
+
+    .botao-container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .botao-link{
+        margin: 0px;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1300px) {
+    .apresentacao{
+        width: 50%;
+    }
+
+    .botao-container{
+        display: inline-block;
+        width: 80%;
+    }
+
+    .botao-link{
+        margin: 0px;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .botao-container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .botao-link{
+        margin: 0px;
+        margin-top: 1rem;
+    }
+
+}

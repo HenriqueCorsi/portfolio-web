@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    .botao-container__habilidades button{
+        padding: 0.5rem;
+    }
+
     .skills{
         width: 90%;
     }

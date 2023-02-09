@@ -1,7 +1,6 @@
 @media screen and (max-width: 800px) {
     .banner{
         background-image: url('../../img/banner-mobile.png');
-        background-repeat: no-repeat;
     }
     
     .apresentacao{

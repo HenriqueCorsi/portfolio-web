@@ -22,7 +22,8 @@
     }
     
     .botao-link__sobre{
-        width: 100%;
+        width: 60%;
+        font-size: 20px;
     }
 }
 

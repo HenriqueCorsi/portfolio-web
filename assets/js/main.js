@@ -24,3 +24,11 @@ function frontend(){
     img01.innerHTML = '<img id="img03" src="./assets/img/icon-frontend.jpg" alt="">'
     img02.innerHTML = '<img id="img04" src="./assets/img/icon-react.png" alt="">'
 }
+
+function datascience(){
+    var img01 = document.querySelector('#box01');
+    var img02 = document.querySelector('#box02');
+
+    img01.innerHTML = '<img id="img05" src="./assets/img/inco-mysql.png" alt="">'
+    img02.innerHTML = '<img id="img06" src="./assets/img/icon-powerbi.png" alt="">'
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paulo Henrique</title>
 
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
     <!--Reset pag-->
     <link rel="stylesheet" href="./assets/css/reset.css">
 
@@ -41,9 +43,10 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
                 </ul>
             </div>
         
@@ -53,9 +56,10 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
             </ul>
         </div>
     </header>
@@ -64,20 +68,20 @@
      <!--Inicio Main-->
      <main>
         <!--Inicio Banner-->
-        <section class="banner">
+        <section class="banner" id="inicio">
             <div class="apresentacao">
                 <p>Olá.</p>
                 <p>Meu nome é</p>
                 <p>Paulo Henrique</p>
                 <div class="botao-container">
-                    <a class="botao-link" href=""> <img src="./assets/img/icon-linkedin.png" alt="icon Linkedin"> Linkedin</a>
-                    <a class="botao-link" href=""> <img src="./assets/img/icon-github.png" alt="icon github"> Linkedin</a>
+                    <a class="botao-link" href="https://www.linkedin.com/in/paulohenrique--/" target="_blank"> <img src="./assets/img/icon-linkedin.png" alt="icon Linkedin"> Linkedin</a>
+                    <a class="botao-link" href="https://github.com/HenriqueCorsi" target="_blank"> <img src="./assets/img/icon-github.png" alt="icon github"> Linkedin</a>
                 </div>
             </div>
         </section>
         <!--Fim Banner-->
         <!--Inicio Sobre-->
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <h1>Sobre Mim</h1>
             <div class="sobre-container">
                 <div class="img-container"><img src="./assets/img/img-sobre.jpg" alt="imagem sobre mim" class="img-sobre"></div>
@@ -89,13 +93,13 @@
                 </div>
             </div>
             <div class="botao-container__sobre">
-                <a class="botao-link__sobre" href="#"> <img src="./assets/img/icon-download.png" alt="icon de download">Curriculum</a>
-                <a class="botao-link__sobre" href="#"> <img src="./assets/img/icon-email.png" alt="icon de email">Email</a>
+                <a class="botao-link__sobre" href="./assets/Paulo Henrique CV.pdf"> <img src="./assets/img/icon-download.png" alt="icon de download">Curriculum</a>
+                <a class="botao-link__sobre" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCDlbgrLmtBWTthwPksbvBpQwVDxZtwgrnQPMmsLVpRTlxLSKskJqMfZWBRzdlMwxdHHRL" target="_blank"> <img src="./assets/img/icon-email.png" alt="icon de email">Email</a>
             </div>
         </section>
         <!--Fim Sobre-->
         <!--Inicio Habilidades-->
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
             <h1>Habilidades</h1>
             <div class="botao-container__habilidades">
                 <button id="backend" onclick="backend()">Back End</button>
@@ -109,7 +113,7 @@
         </section>
          <!--Fim Habilidades-->
          <!--Inicio Projetos-->
-         <section class="projetos">
+         <section class="projetos" id="projetos">
             <h1>Projetos</h1>
             <div class="container-projetos">
                 <div class="box-projetos">
@@ -120,7 +124,7 @@
                     <h3>Techs</h3>
                     <p>Javascript, HTML, CSS e Sheet Monkey.</p>
                     <div class="container-botao__projetos">
-                        <a class="botao-link__projetos" href="#">Visualizar</a>
+                        <a class="botao-link__projetos" href="https://github.com/HenriqueCorsi/formulario_PegasusRun" target="_blank">Visualizar</a>
                     </div>
                 </div>
                 <div class="box-projetos">
@@ -130,7 +134,7 @@
                     <h3>Techs</h3>
                     <p>Javascript, HTML, CSS e API ViaCep.</p>
                     <div class="container-botao__projetos">
-                        <a class="botao-link__projetos" href="#">Visualizar</a>
+                        <a class="botao-link__projetos" href="https://github.com/HenriqueCorsi/Busca-cep-web" target="_blank">Visualizar</a>
                     </div>
                 </div>
                 <div class="box-projetos">
@@ -140,7 +144,7 @@
                     <h3>Techs</h3>
                     <p>Python, Mysql</p>
                     <div class="container-botao__projetos">
-                        <a class="botao-link__projetos" href="#">Visualizar</a>
+                        <a class="botao-link__projetos" href="https://github.com/HenriqueCorsi/Conexao_BancoDados_Mysql" target="_blank">Visualizar</a>
                     </div> 
                 </div>
                 <div class="box-projetos">
@@ -150,7 +154,7 @@
                     <h3>Techs</h3>
                     <p>Javascript, HTML e CSS.</p>
                     <div class="container-botao__projetos">
-                        <a class="botao-link__projetos" href="#">Visualizar</a>
+                        <a class="botao-link__projetos" href="https://github.com/HenriqueCorsi/Sua_Saude" target="_blank">Visualizar</a>
                     </div> 
                 </div>
                 <div class="box-projetos">
@@ -160,14 +164,14 @@
                     <h3>Techs</h3>
                     <p>Javascript, HTML5 e CSS.</p>
                     <div class="container-botao__projetos">
-                        <a class="botao-link__projetos" href="#">Visualizar</a>
+                        <a class="botao-link__projetos" href="https://github.com/HenriqueCorsi/Garagem224_2.0" target="_blank">Visualizar</a>
                     </div> 
                 </div>
             </div>
          </section>
          <!--Fim Projetos-->
          <footer>
-           <a href="#">Desenvolvido por © Paulo Henrique</a>
+           <a href="https://www.linkedin.com/in/paulohenrique--/" target="_blank">Desenvolvido por © Paulo Henrique</a>
          </footer>
         
      </main>

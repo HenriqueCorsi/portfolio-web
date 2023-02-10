@@ -25,8 +25,9 @@
     width: 45%;
     height: 650px;
     margin: 2rem 0;
+    border: 0.3rem solid #000000;
     border-radius: 1rem;
-    background-color: #000;
+    background-color: #FAEBD7;
 }
 
 .banner-projetos{
@@ -39,7 +40,7 @@
     line-height: 12rem;
     font-family: tommy;
     background-color: #11408C;
-    color: #fff;
+    color: #000000;
 }
 
 .box-projetos h2{
@@ -47,14 +48,14 @@
     text-align: center;
     font-size: 30px;
     font-family: tommy;
-    color: #fff;
+    color: #000000;
 }
 
 .box-projetos h3{
     margin: 1.5rem 1.5rem;
     font-size: 25px;
     font-family: tommy;
-    color: #fff;
+    color: #000000;
 }
 
 .box-projetos p{
@@ -62,7 +63,7 @@
     text-align: justify;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 .container-botao__projetos{
@@ -83,8 +84,8 @@
     border-radius: 1rem;
     font-size: 25px;
     font-family: tommy;
-    background-color: #ffffff;
-    color:  #000000;
+    background-color: #000000;
+    color:  #ffffff;
 }
 
 .botao-link__projetos:hover{

@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
     .sobre{
-        width: 80%;
+        width: 90%;
         margin-top: -150px;
     }
     
@@ -17,12 +17,19 @@
         width: 40%;
     }
 
+    .txt-sobre{
+        width: 100%;
+    }
+
     .botao-container__sobre{
         width: 100%;
+        display: inline;
+        
     }
     
     .botao-link__sobre{
-        width: 60%;
+        width: 50%;
+        margin-top: 1rem;
         font-size: 20px;
     }
 }

@@ -6,12 +6,17 @@
 
     .box-projetos{
         margin: 3rem auto;
-        width: 70%;
+        width: 90%;
         height: 650px;
     }
 
+    .box-projetos h1{
+        height: 100px;
+        line-height: 100px;
+    }
+
     .banner-projetos{
-        height: 150px;
+        height: 100px;
     }
 
     .container-botao__projetos{
@@ -21,6 +26,10 @@
 
     .botao-link__projetos{
         width: 70%;
+    }
+
+    #encurta{
+        height: 560px;
     }
 }
 

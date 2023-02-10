@@ -1,0 +1,94 @@
+@font-face {
+    font-family: tommy;
+    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
+}
+
+.projetos{
+    margin: 5rem 0;
+}
+
+.projetos h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: tommy;
+}
+
+.container-projetos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.box-projetos{
+    width: 45%;
+    height: 650px;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    background-color: #000;
+}
+
+.banner-projetos{
+    width: 100%;
+    height: 200px;
+}
+
+.box-projetos h1{
+    height: 200px;
+    line-height: 12rem;
+    font-family: tommy;
+    background-color: #11408C;
+    color: #fff;
+}
+
+.box-projetos h2{
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: tommy;
+    color: #fff;
+}
+
+.box-projetos h3{
+    margin: 1.5rem 1.5rem;
+    font-size: 25px;
+    font-family: tommy;
+    color: #fff;
+}
+
+.box-projetos p{
+    margin: 1.5rem 1.5rem;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.container-botao__projetos{
+    margin: 3rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.botao-link__projetos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin: auto;
+    padding: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 1rem;
+    font-size: 25px;
+    font-family: tommy;
+    background-color: #ffffff;
+    color:  #000000;
+}
+
+.botao-link__projetos:hover{
+    scale: 105%;
+    background-color: #737373;
+}
+

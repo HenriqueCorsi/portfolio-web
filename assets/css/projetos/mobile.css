@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+    .container-projetos{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box-projetos{
+        margin: 3rem auto;
+        width: 70%;
+        height: 650px;
+    }
+
+    .banner-projetos{
+        height: 150px;
+    }
+
+    .container-botao__projetos{
+        width: 100%;
+        padding: 0;
+    }
+
+    .botao-link__projetos{
+        width: 70%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) { 
+    .container-projetos{
+        display: flex;
+        width: 90%;
+    }
+    
+    .box-projetos{
+        margin: 3rem auto;
+        width: 70%;
+        height: 650px;
+    }
+
+    .banner-projetos{
+        height: 150px;
+    }
+
+    .container-botao__projetos{
+        width: 100%;
+        padding: 0;
+    }
+
+    .botao-link__projetos{
+        width: 70%;
+    }
+}

@@ -1,0 +1,49 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.btn-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 5rem;
+    right: 2.2rem;
+    width: 3%;
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.btn-top:hover{
+    scale: 120%;
+    background-color: #9f9f9f;
+}
+
+.arrow{
+    border: solid #ffffff;
+    border-width: 0 10px 10px 0;
+    padding: 1rem;
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+
+.up{
+    transform: rotate(-135deg);
+}
+
+@media screen and (max-width: 999px) {
+    .btn-top, .arrow{
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1700px) {
+    .btn-top{
+        width: 5%;
+    }
+}

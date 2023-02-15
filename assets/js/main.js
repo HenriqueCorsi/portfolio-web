@@ -1,3 +1,4 @@
+// Nav Bar
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -9,6 +10,7 @@ function menuShow() {
     }
 }
 
+// Botão Back End
 function backend(){
     var img01 = document.querySelector('#box01');
     var img02 = document.querySelector('#box02');
@@ -17,6 +19,7 @@ function backend(){
     img02.innerHTML = '<img id="img02"  src="./assets/img/icon-python.png" alt="">'
 }
 
+// Botão Front End
 function frontend(){
     var img01 = document.querySelector('#box01');
     var img02 = document.querySelector('#box02');
@@ -25,10 +28,33 @@ function frontend(){
     img02.innerHTML = '<img id="img04" src="./assets/img/icon-react.png" alt="">'
 }
 
+// Botão Data Science
 function datascience(){
     var img01 = document.querySelector('#box01');
     var img02 = document.querySelector('#box02');
 
     img01.innerHTML = '<img id="img05" src="./assets/img/inco-mysql.png" alt="">'
     img02.innerHTML = '<img id="img06" src="./assets/img/icon-powerbi.png" alt="">'
+}
+
+// Oculta Botão Scroll
+function ocultarBtnTop(){
+    const btn = document.querySelector('.btn-top');
+
+    if(window.scrollY > 10){
+        btn.style.display = 'flex';
+    }else{
+        btn.style.display = 'none';
+    }
+}
+
+// Botão de Scroll
+function btnTop(){
+    const btn = document.querySelector('.btn-top');
+
+    btn.addEventListener('click', function(){
+        window.scrollTo(0, 0);
+    })
+
+    document.addEventListener('scroll', ocultarBtnTop);
 }

@@ -23,7 +23,6 @@
 
 .box-projetos{
     width: 45%;
-    height: 650px;
     margin: 2rem 0;
     border: 0.3rem solid #000000;
     border-radius: 1rem;
@@ -68,7 +67,7 @@
 
 .container-botao__projetos{
     margin: 3rem 0;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -76,7 +75,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 20%;
+    width: 30%;
     margin: auto;
     padding: 1rem;
     text-decoration: none;

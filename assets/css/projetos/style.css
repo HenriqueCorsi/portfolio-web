@@ -9,7 +9,7 @@
 
 .projetos h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-family: tommy;
 }
 
@@ -22,9 +22,9 @@
 }
 
 .box-projetos{
-    width: 45%;
+    width: 35%;
     margin: 2rem 0;
-    border: 0.3rem solid #000000;
+    border: 0.5rem solid #000000;
     border-radius: 1rem;
     background-color: #FAEBD7;
 }
@@ -45,7 +45,7 @@
 .box-projetos h2{
     margin: 1.5rem 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: tommy;
     color: #000000;
 }
@@ -60,7 +60,7 @@
 .box-projetos p{
     margin: 1.5rem 1.5rem;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
 }
@@ -81,7 +81,7 @@
     text-decoration: none;
     transition: 0.3s;
     border-radius: 1rem;
-    font-size: 25px;
+    font-size: 20px;
     font-family: tommy;
     background-color: #000000;
     color:  #ffffff;

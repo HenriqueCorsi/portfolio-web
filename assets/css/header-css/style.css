@@ -15,7 +15,7 @@ header {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem 25rem;
 }
 
@@ -48,7 +48,7 @@ header {
 .nav-link {
     text-decoration: none;
     transition: 0.3s;
-    font-size: 1.8rem;
+    font-size: 25px;
     font-weight: 400;
     font-family: tommy;
     color: #fff;

@@ -12,7 +12,7 @@
 .sobre h1{
     text-align: center;
     font-family: tommy;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .sobre-container{
@@ -23,12 +23,12 @@
 }
 
 .img-sobre{
-    width: 70%;
+    width: 50%;
     border-radius: 40%;
 }
 
 .txt-sobre{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     line-height: 2rem;
@@ -52,7 +52,7 @@
     text-decoration: none;
     transition: 0.3s;
     border-radius: 1rem;
-    font-size: 25px;
+    font-size: 20px;
     font-family: tommy;
     background-color: #000000;
     color:  #fff;

@@ -10,7 +10,7 @@
 
 .habilidades h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-family: tommy;
     color: #fff;
 }
@@ -24,11 +24,11 @@
 
 .botao-container__habilidades button{
     width: 30%;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 25px;
+    font-size: 20px;
     font-family: tommy;
     background-color: #fff;
 }
@@ -49,27 +49,27 @@
 }
 
 #img01{
-    width: 60%;
+    width: 30%;
 }
 
 #img02{
-    width: 60%;
+    width: 30%;
 }
 
 #img03{
-    width: 80%;
+    width: 50%;
 }
 
 #img04{
-    width: 80%;
+    width: 50%;
 }
 
 #img05{
-    width: 70%;
+    width: 50%;
 }
 
 #img06{
-    width: 40%;
+    width: 30%;
 }
 
 

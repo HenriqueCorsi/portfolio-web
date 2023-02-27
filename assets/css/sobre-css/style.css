@@ -23,7 +23,7 @@
 }
 
 .img-sobre{
-    width: 50%;
+    width: 60%;
     border-radius: 40%;
 }
 
@@ -47,8 +47,7 @@
     justify-content: space-around;
     align-items: center;
     width: 20%;
-    padding: 0.5rem;
-    margin-right: 2.5rem;
+    padding: 0.2rem 1rem;
     text-decoration: none;
     transition: 0.3s;
     border-radius: 1rem;
@@ -56,6 +55,7 @@
     font-family: tommy;
     background-color: #000000;
     color:  #fff;
+    box-shadow: 1px 1px 17px black;
 }
 
 .botao-link__sobre:hover{

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: tommy;
+    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
+}
+
+.qualificacoes{
+    margin: 7rem 0;
+}
+
+.qualificacoes h1{
+    font-family: tommy;
+    font-size: 35px;
+    text-align: center;
+}
+
+.qualificacoes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+.qualificacoes-box{
+    width: 25%;
+    height: 500px;
+    border: 0.5rem solid #000;
+    border-radius: 0.5rem;
+}
+
+.qualificacoes-box-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: black;
+}
+
+.qualificacoes-box-header img{
+    width: 20%;
+}
+
+.qualificacoes-box-header h2{
+    font-family: tommy;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.qualificacoes-box h2{
+    margin: 2rem 1rem;
+    text-align: center;
+    font-family: tommy;
+    font-size: 25px;
+}
+
+.qualificacoes-box p{
+    margin: 2rem 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.qualificacoes-box-button{
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+    background-color: #000;
+}
+
+.qualificacoes-box-button:hover{
+    scale: 105%;
+    background-color: #323232;
+}
+
+.qualificacoes-box-button a{
+    text-decoration: none;
+    font-family: tommy;
+    font-size: 16px;
+    color: #ffff;
+}
+
+#qtl-box{
+    margin-top: 7rem;
+}
+
+#btn-progresso{
+    background-color: #6c6c6c;
+}
+

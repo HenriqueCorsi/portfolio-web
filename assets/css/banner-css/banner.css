@@ -44,6 +44,7 @@ p{
     font-family: tommy;
     background-color: #000000;
     color:  #fff;
+    box-shadow: 1px 1px 17px black;
 }
 .botao-link:hover{
     scale: 105%;

@@ -55,6 +55,10 @@
     .botao-link__sobre{
         width: 100%;
     }
+
+    .botao-link__sobre{
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 2400px) {

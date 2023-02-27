@@ -16,7 +16,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 10rem;
+    padding: 1.5rem 10rem;
 }
 
 .logo {
@@ -27,12 +27,14 @@ header {
 .logo h1 {
     color: #fff;
     font-family: vampire;
-    font-size: 3rem;
+    font-size: 35px;
 }
 
 .nav-list {
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    width: 60%;
 }
 
 .nav-list ul {
@@ -48,7 +50,7 @@ header {
 .nav-link {
     text-decoration: none;
     transition: 0.3s;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     font-family: tommy;
     color: #fff;

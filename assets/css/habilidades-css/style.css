@@ -13,11 +13,48 @@
     src: url('../../font/Designer.otf');
 }
 
+.habilidades{
+    margin: 7rem 0;
+}
+
 .habilidades h1{
     text-align: center;
     font-family: tommy;
     font-size: 30px;
 }
+
+.habilidades-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    margin: 2rem auto;
+}
+
+.habilidades-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: #000;
+}
+
+.habilidades-box img{
+    width: 20%;
+}
+
+.habilidades-box p{
+    font-size: 30px;
+    color: #ffff;
+}
+
+#sql{
+    height: 40px;
+}
+
 
 
 

@@ -1,0 +1,37 @@
+@media screen and (max-width: 779px) {
+    .habilidades{
+        text-align: center;
+    }
+    
+    .habilidades-container{
+        display: inline-block;
+        width: 90%;
+    }
+
+    .habilidades-box img{
+        width: 10%;
+    }
+
+    .habilidades-box p{
+        font-size: 25px;
+        color: #ffff;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1289px) {
+    .habilidades-container{
+        width: 95%;
+    }
+}
+
+@media (min-width: 1290px) and (max-width: 1474px) {
+    .habilidades-container{
+        width: 75%;
+    }
+}
+
+@media (min-width: 1475px) and (max-width: 1670px) {
+    .habilidades-container{
+        width: 65%;
+    }
+}

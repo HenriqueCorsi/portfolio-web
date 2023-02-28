@@ -13,63 +13,18 @@
     src: url('../../font/Designer.otf');
 }
 
-.habilidades{
-    margin: 7rem 0;
-}
-
 .habilidades h1{
     text-align: center;
     font-family: tommy;
     font-size: 30px;
 }
 
-.habilidades-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 5rem 0;
-}
 
-.habildiades-box{
-    width: 30%;
-    padding: 2rem 0;
-    border-radius: 1rem;
-    background-color: black;
-}
 
-.habildiades-box--header{
-    height: 60px;
-    margin: 2rem 0;
-}
 
-.title-back-end, .title-front-end, .title-data-science{
-    text-align: center;
-    line-height: 4rem;
-    font-size: 25px;
-    color: #ffff;
-}
 
-.title-back-end{
-    font-family: robo;
-}
 
-.title-front-end{
-    font-family: designer;
-    font-size: 30px;
-}
 
-.title-data-science{
-    font-family: tommy;
-    font-size: 30px;
-}
-
-.habildiades-box--subBox{
-    width: 90%;
-    height: 250px;
-    margin: auto;
-    border-radius: 1rem;
-    background-color: #ebebeb;
-}
 
 
 

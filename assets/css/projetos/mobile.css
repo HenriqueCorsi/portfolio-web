@@ -1,5 +1,5 @@
-@media screen and (max-width: 800px) {
-    .container-projetos{
+@media screen and (max-width: 449px) {
+     .container-projetos{
         display: inline-block;
         width: 100%;
     }
@@ -17,6 +17,45 @@
 
     .banner-projetos{
         height: 100px;
+    }
+
+    .box-projetos p{
+        font-size: 20px;
+    }
+
+    .container-botao__projetos{
+        width: 100%;
+        padding: 0;
+    }
+
+    .botao-link__projetos{
+        width: 70%;
+    }
+
+    #encurta{
+        height: 560px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .container-projetos{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box-projetos{
+        margin: 3rem auto;
+        width: 90%;
+        height: 650px;
+    }
+
+    .box-projetos h1{
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .banner-projetos{
+        height: 150px;
     }
 
     .box-projetos p{

@@ -1,4 +1,8 @@
 @media  screen and (max-width: 435px) {    
+    .qualificacoes{
+        margin: 0.1rem 0;
+    }
+    
     .qualificacoes h1{
         font-size: 30px;
     }

@@ -1,5 +1,9 @@
 @media screen and (max-width: 449px) {
-     .container-projetos{
+    .projetos{
+        margin: 2rem 0 ;
+    }
+
+    .container-projetos{
         display: inline-block;
         width: 100%;
     }
@@ -7,7 +11,7 @@
     .box-projetos{
         margin: 3rem auto;
         width: 85%;
-        height: 650px;
+        height: 750px;
     }
 
     .box-projetos h1{
@@ -33,7 +37,7 @@
     }
 
     #encurta{
-        height: 560px;
+        height: 650px;
     }
 }
 

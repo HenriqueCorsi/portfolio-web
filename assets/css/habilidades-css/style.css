@@ -1,9 +1,4 @@
 @font-face {
-    font-family: tommy;
-    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
-}
-
-@font-face {
     font-family: robo;
     src: url('../../font/ROBO.ttf');
 }
@@ -13,56 +8,103 @@
     src: url('../../font/Designer.otf');
 }
 
-.habilidades{
-    margin: 7rem 0;
+@font-face {
+    font-family: lemon;
+    src: url('../../font/LEMONMILK-Regular.otf');
 }
 
 .habilidades h1{
     text-align: center;
+    font-size: 35px;
     font-family: tommy;
-    font-size: 30px;
 }
 
-.habilidades-container{
+.habilidade-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    width: 45%;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
-.habilidades-box{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0.5rem;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
+.habilidades-container-card{
+    position: relative;
+    width: 350px;
+    height: 500px;
+}
+
+.card-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+.habilidades-container-card:hover .card-box{
+    transform: rotateY(180deg);
+}
+
+.front-card{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    box-shadow: 1px 1px 18px black;
     background-color: #000;
-}
-
-.habilidades-box img{
-    width: 20%;
-}
-
-.habilidades-box p{
-    font-size: 30px;
     color: #ffff;
 }
 
-#sql{
-    height: 40px;
+.back-card{
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    padding: 1rem;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    box-shadow: 1px 1px 18px black;
+    background-color: #000000;
+    color: #000000;
+    transform: rotateY(180deg);
 }
 
+#title-back-end, #title-front-end, #title-date-science{
+    line-height: 27rem;
+    text-align: center;
+    font-size: 30px;
+}
 
+#title-back-end{
+    font-family: robo;
+}
 
+#title-front-end{
+    font-family: designer;
+}
 
+#title-date-science{
+    font-family: lemon;
+}
 
+.sub-container-back{
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
 
+.sub-box-back{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 1.5rem 0 0 2rem;
+    text-align: center;
+}
 
+.sub-box-back h3{
+    font-size: 25px;
+    font-family: tommy;
+    margin:0 0 0 2rem;
+}
 
-
-
-
-
+.sub-box-back img{
+    width: 30%;
+}
